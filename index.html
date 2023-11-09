@@ -146,22 +146,22 @@
                               <a class="nav-link" href="index.html">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="about.html">About</a>
-                           </li>
-                           <li class="nav-item">
                               <a class="nav-link" href="couple.html">Couple</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="gallery.html">Gallery</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="service.html">Service</a>
+                              <a class="nav-link" href="services.html">Service</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="Javascript:void(0)">Best People</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="Javascript:void(0)">Gifts</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
                            </li>
                            <li class="nav-item">
                               <a class="nav-link" href="contact.html">Contact Us</a>
@@ -341,23 +341,28 @@
                   <form id="request" class="main_form">
                      <div class="row">
                         <div class="col-md-6 ">
-                           <label>Name</label>
-                           <input class="contactus" placeholder="" type="type" name=" Name"> 
+                           <label>Nom</label>
+                           <input class="contactus" placeholder="Entrer votre nom *" type="type" name=" Nom" required>
+                        </div>
+                        <div class="col-md-6 ">
+                           <label>Prénom</label>
+                           <input class="contactus" placeholder="Entrer votre prénom *" type="type" name=" prenom" required>
                         </div>
                         <div class="col-md-6">
-                           <label>Phone Number</label>
-                           <input class="contactus" placeholder="" type="type" name="Phone Number">                          
+                           <label>Numéro</label>
+                           <input class="contactus" placeholder="Saisir numéro *" type="number" name="Phone Number"
+                                  required>
                         </div>
                         <div class="col-md-12">
                            <label>Email</label>
-                           <input class="contactus" placeholder="" type="type" name="Email"> 
+                           <input class="contactus" placeholder="exemple: ge@gmail.com" type="email" name="Email" required>
                         </div>
                         <div class="col-md-12">
                            <label>Message</label>
-                           <textarea class="textarea" placeholder="" type="type" Message="Name"></textarea>
+                           <textarea class="textarea" placeholder="Sasir la descprition" type="type" Message="Name" required></textarea>
                         </div>
                         <div class="col-md-12">
-                           <button class="send_btn">Send</button>
+                           <button class="send_btn" type="submit">Envoyer</button>
                         </div>
                      </div>
                   </form>
